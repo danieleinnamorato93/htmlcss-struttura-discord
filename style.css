@@ -11,18 +11,21 @@ footer{
 
 }
 
-.flex-container {
+.flex-nav-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content:center ;
+    align-items:center;
+    min-height: 50px;
+    background-color: powderblue;
+    min-width: 100%;
 
 }
 .logo{
 
     min-width: 19%;
     min-height: 30px;
-    background-color: lightgreen;
+    background-color: lightcoral;
     color: black;
     text-align: center;
     border: 2px dashed black;
@@ -32,7 +35,7 @@ footer{
 .link {
     min-width: 60%;
     min-height: 30px;
-    background-color: lightgreen;
+    background-color: lightcoral;
     color: black;
     text-align: center;
     border: 2px dashed black;
@@ -43,14 +46,14 @@ footer{
 .login {
     min-width: 19%;
     min-height: 30px;
-    background-color: lightgreen;
+    background-color: lightcoral;
     color: black;
     text-align: center;
     border: 2px dashed black;
     
 }
 
-.section-flex-container {
+.header-section-flex-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -61,7 +64,7 @@ footer{
    
 }
 
-.content-section {
+.square-header-section {
     min-height: 200px;
     min-width: 500px;
     background-color:darkred;;
@@ -103,12 +106,13 @@ footer{
 }
 
 .section-flex-container-B-special {
+    max-width:100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    
-    background-color:darkslategrey;
+    background-color: darkslategrey;
+    margin-top: 15px;
 }
 
 .square-a{
@@ -134,28 +138,29 @@ footer{
 
     .column-big {
         min-height: 300px;
-        min-width: 30%;
+        min-width: 27%;
         background-color: darkslateblue;
         border: 2px dashed black;}
 
         .column-small {
             min-height: 300px;
-            min-width: 15%;
+            min-width: 13%;
             background-color: lightseagreen;
             border: 2px dashed white;}
 
         .logo-footer{
             min-width: 20%;
             min-height: 30px;
-            background-color: lightskyblue;
+            background-color: lightcoral;
             color: black;
             text-align: center;
             border: 2px dashed black;
+            
         }
     .button {
         min-width: 20%;
         min-height: 30px;
-        background-color: lightskyblue;
+        background-color: lightcoral;
         color: black;
         text-align: center;
         border: 2px dashed black;
@@ -164,12 +169,11 @@ footer{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: flex-end;
-        min-height: 50px;
-        background-color: beige;
-        min-width: 100%;
+        align-items: center;
+        min-height: 55px;
+        background-color: powderblue;
+        min-width: 80%;
+        
     }
-    
-
     
 
