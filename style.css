@@ -5,6 +5,12 @@ header {
     
 }
 
+footer{
+    min-height: 150px;
+    background-color: darkslategray;
+
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -93,8 +99,16 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    min-height: 300px;
-    background-color:darkslateblue;
+    min-height: 400px;
+}
+
+.section-flex-container-B-special {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color:darkslategrey;
 }
 
 .square-a{
@@ -121,15 +135,40 @@ header {
     .column-big {
         min-height: 300px;
         min-width: 30%;
-        background-color: darkcyan;
+        background-color: darkslateblue;
         border: 2px dashed black;}
 
         .column-small {
             min-height: 300px;
-            min-width: 30%;
-            background-color: darkcyan;
-            border: 2px dashed black;}
-    
+            min-width: 15%;
+            background-color: lightseagreen;
+            border: 2px dashed white;}
+
+        .logo-footer{
+            min-width: 20%;
+            min-height: 30px;
+            background-color: lightskyblue;
+            color: black;
+            text-align: center;
+            border: 2px dashed black;
+        }
+    .button {
+        min-width: 20%;
+        min-height: 30px;
+        background-color: lightskyblue;
+        color: black;
+        text-align: center;
+        border: 2px dashed black;
+    }
+    .footer-flex-container-down {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        min-height: 50px;
+        background-color: beige;
+        min-width: 100%;
+    }
     
 
     
