@@ -72,7 +72,7 @@ header {
 }
 .section-flex-container-G {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
     min-width: 600px;
@@ -112,23 +112,25 @@ header {
 }
 
 .square-c{
-    min-height: 250px;
-    min-width: 20%;
-    background-color:lightcoral;
-    border: 2px dashed black;
-}
-
-.square-d{
-    min-height: 250px;
-    min-width: 60%;
-    background-color: darkcyan;
-    border: 2px dashed black;}
-
-.square-e{
     min-height: 500px;
     min-width: 80%;
     background-color: darkmagenta;
     border: 2px dashed black;
     }
+
+    .column-big {
+        min-height: 300px;
+        min-width: 30%;
+        background-color: darkcyan;
+        border: 2px dashed black;}
+
+        .column-small {
+            min-height: 300px;
+            min-width: 30%;
+            background-color: darkcyan;
+            border: 2px dashed black;}
+    
+    
+
     
 
