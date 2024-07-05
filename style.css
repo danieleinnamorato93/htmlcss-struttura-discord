@@ -50,7 +50,7 @@ header {
     justify-content: center;
     align-items: center;
     min-height: 300px;
-    background-color:blue;
+    background-color:lightgreen;
     
    
 }
@@ -58,7 +58,7 @@ header {
 .content-section {
     min-height: 200px;
     min-width: 500px;
-    background-color:purple;
+    background-color:darkred;;
     border: 2px dashed black;
 }
 
@@ -79,6 +79,15 @@ header {
     min-height: 300px;
     background-color:lightgray;
 }
+.section-flex-container-G-special {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-width: 600px;
+    min-height: 600px;
+    background-color:lightgray;
+}
 .section-flex-container-B {
     display: flex;
     flex-direction: row;
@@ -91,7 +100,7 @@ header {
 .square-a{
     min-height: 250px;
     min-width: 60%;
-    background-color:coral;
+    background-color:lightcoral;
     border: 2px dashed black;
 }
 
@@ -105,7 +114,7 @@ header {
 .square-c{
     min-height: 250px;
     min-width: 20%;
-    background-color:coral;
+    background-color:lightcoral;
     border: 2px dashed black;
 }
 
@@ -116,10 +125,10 @@ header {
     border: 2px dashed black;}
 
 .square-e{
-        min-height: 250px;
-        min-width: 80%;
-        background-color: darkcyan;
-        border: 2px dashed black;
+    min-height: 500px;
+    min-width: 80%;
+    background-color: darkmagenta;
+    border: 2px dashed black;
     }
     
 
